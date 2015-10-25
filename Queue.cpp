@@ -4,7 +4,6 @@
 class Queue
 {
 	public:
-		int *arr;
 		int cout;
 		Queue()
 		{
@@ -40,5 +39,7 @@ class Queue
 				return result;
 			}
 		}
+	private:
+		int *arr;
 
 };

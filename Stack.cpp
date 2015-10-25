@@ -4,7 +4,6 @@
 class Stack
 {
 	public:
-		int *arr;
 		int cout;
 		Stack()
 		{
@@ -36,5 +35,7 @@ class Stack
 				return result;
 			}
 		}
+	private:
+		int *arr;
 
 };

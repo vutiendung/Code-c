@@ -1,10 +1,10 @@
 #include<iostream>
-#include <E:\Projects\C++\Stack.cpp>
+#include <E:\Projects\C++\Queue.cpp>
 using namespace std;
 
 int main()
 {
-    Stack q;
+    Queue q;
     q.Add(1);
     q.Add(2);
     q.Add(3);
